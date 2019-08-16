@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10565419000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as a help desk employee",
+        "description": "",
+        "id": "login;login-as-a-help-desk-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 861641600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 965360900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4299087600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as a help desk employee",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_a_help_desk_employee()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user I want to login under different roles",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\login\\login.feature",
+    "tags": []
+  }
+]
